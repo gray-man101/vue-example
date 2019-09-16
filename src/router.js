@@ -13,7 +13,7 @@ export default new VueRouter({
       component: Home
     },
     {
-      path: '/company',
+      path: '/company/:id',
       name: 'company',
       component: Company
       // route level code-splitting
